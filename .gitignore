@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials and local settings
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Local reports, prices, database and logos
+data/
+
+# Backups and archives
+*.zip
+*.bak
+app_before_analysis_update.py
+
+# Logs
+*.log
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local databases, data, reports and logos
+data/
+
+# Backups, archives and logs
+*.bak
+*.zip
+*.log
+
+# Old app versions and temporary scripts
+app_old.py
+app_oldy.py
+app__.py
+update_batch3_review.py
+gitignore
+
+# Editor settings
+.vscode/
